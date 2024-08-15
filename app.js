@@ -31,8 +31,8 @@ section1TimeLine
 let section2TimeLine = gsap.timeline({
   scrollTrigger: {
     trigger: ".section2",
-    start: "top center",
-    end: "right bottom",
+    start: "center 80%",
+    end: "top top",
     toggleActions: "play reverse play reverse",
     scrub: 1,
   },
@@ -68,7 +68,7 @@ let horizontalScroll = gsap.to(horizontalSections, {
 let section3TimeLine = gsap.timeline({
   scrollTrigger: {
     trigger: ".section3",
-    start: "top center",
+    start: "center 80%",
     end: "center center",
     toggleActions: "play reverse play reverse",
     scrub: 1,
